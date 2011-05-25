@@ -1,3 +1,5 @@
 body {width: 32in; height: 40in; font-size: 36pt}
 
-div.guf { height: 28in }
+div.guf { min-height: 16in }
+div.musar { min-height: 4in }
+div.safek { min-height: 4in }

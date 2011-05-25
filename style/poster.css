@@ -1,17 +1,23 @@
 @import url("reset.css");
 
 h1 {font-size: 173%; text-align: center; line-height: 2 }
-div.region { min-height: 4em; padding: 6pt; background-color: white; border: thin dashed black }
+div.region { min-height: 4em; padding: 0.5em; background-color: white; border: thin dashed black }
 
 div.rashi { float: left; width: 28% ; }
 div.tosafot { float: right; width: 28%; }
 
 div.guf { width: 40%; margin-left: 29%; padding: 1%; border: thin dashed blue }
-div.mishna {font-size: 120%; padding: 0.5em }
-div.gmara  { padding: 0.5em }
+div.mishna {font-size: 120% }
+div.gmara  { }
+div.halacha {}
 
-div.mesoret { width: 68%; padding-right: 1% }
+div.mesoret { width: 68% }
 div.toda { float: right;  width: 18% }
 div.barcode { float: right; width: 8% }
 
+div.musar { float: left; width: 48% }
+div.safek { float: right; width: 48% }
+
 div.maximized {font-size: 200%; position: absolute; width: 100%; height: 100%; top: 0%; left: 0% }
+
+br { clear: both;  }
