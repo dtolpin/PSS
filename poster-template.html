@@ -8,29 +8,32 @@
     <meta name="version" content="PSS 0.0" />
     <meta name="author" content="David Tolpin" />
     <meta name="company" content="Offtopia" />
-    <!-- style sheet links -->
+    <!-- style links -->
     <link rel="stylesheet" href="style/poster.css" type="text/css" id="posterStyle"/>
     <link rel="stylesheet" href="style/view.css" type="text/css" media="projection" id="viewStyle" />
     <link rel="stylesheet" href="style/print.css" type="text/css" media="print" id="printStyle" />
     <link rel="stylesheet" href="style/read.css" type="text/css" media="screen" id="readStyle" />
+
+    <!-- script links -->
+    <script src="script/poster.js" type="text/javascript"></script>
   </head>
   <body>
     <h1>Poster Template</h1>
     <div class="guf">
-      <div class="mishna">
+      <div class="region mishna" onclick="zoom(this)">
         Main idea
       </div>
-      <div class="gmara">
+      <div class="region gmara">
         Motivation and Justification
       </div>
     </div>
-    <div class="rashi">
+    <div class="region rashi">
       Proof sketches and theory
     </div>
-    <div class="tosafot">
+    <div class="region tosafot">
       Experiments
     </div>
-    <div class="mesoret">
+    <div class="region mesoret">
       Bibliography
     </div>
   </body>
