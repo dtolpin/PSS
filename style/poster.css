@@ -4,3 +4,5 @@ h1 {font-size: 173%; text-align: center; line-height: 2 }
 div.guf {width: 40%; margin-left: 30%; border: thin solid red }
 div.mishna {font-size: 120%; border: thin solid blue; padding: 0.5em }
 div.gmara  { border: thin solid green; padding: 0.5em }
+
+div.maximized {position: absolute; width: 90%; height: 90%; top: 5%; left: 5% }
